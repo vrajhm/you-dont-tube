@@ -1,0 +1,16 @@
+{
+    "manifest_version" : 3,
+    "name" : "you-dont-tube",
+    "version" : "1.0",
+    "description" : "Personal site blocker. Say no to addiction!",
+    "action" : {
+        "default_popup" : "popout.html",
+        "default_icon" : "noyoutube_icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*", "https://asuracomic.net/*", "https://www.instagram.com/*"],
+            "js": ["./main.js"]
+        }
+    ]
+}
