@@ -1,2 +1,4 @@
-const content = document.querySelector('body')
-content.parentNode.removeChild(content)
+function siteblock(){
+    const content = document.querySelector('body');
+    content.parentNode.removeChild(content);
+}

@@ -9,8 +9,8 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://www.youtube.com/*", "https://asuracomic.net/*", "https://www.instagram.com/*"],
-            "js": ["./main.js"]
+            "matches": ["https://asuracomic.net/*", "https://www.instagram.com/*"],
+            "js": ["./main.js", "timer.js"]
         }
     ]
 }
